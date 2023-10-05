@@ -2,7 +2,6 @@ function construirTabela(){
     let tabela=document.querySelector("#tabela tbody");
     let produto=document.querySelector("#produto").value;
     tabela.innerHTML="";
-    alert(produto);
 
     let nomes=["Magazine","Tesla","Facebook","Google","TATA","Atos","EliteSoft","Casas Bahia","Casas china","Meta","Senac"];
     let tipoProduto=["Gamer","Escritório","Trabalho","HomeOffice","Longtech","Amazon","Redragon","MotoSpeed","CoolerMaster","Fortrack","Razer"];
